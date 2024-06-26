@@ -1,0 +1,28 @@
+
+
+nav{
+    display: flex;
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+.banner-container{
+    display: flex;
+}
+.banner-img{
+    width: 400px;
+    height: 200px;
+}
+.content-area-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.place{
+    display: flex;
+}
+.place-img{
+    width: 120px;
+    height: 120px;
+}

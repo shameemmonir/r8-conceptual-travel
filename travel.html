@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img class="logo" src="images/icons/star_1_.png" alt="">
+        </div>
+        <div class="profile">
+            <div class="cart-icon-container">
+                <img src="images/icons/calender_icon.png" alt="">
+                <h2 id="cart-count">0</h2>
+            </div>
+            <li>Home</li>
+            <li>Setting</li>
+            <img src="images/icons/star_1_.png" alt="">
+        </div>
+    </nav>
+    <main>
+        <section class="banner-container">
+            <div class="banner-left">
+                <h1 class="title">Lets Travel</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae accusantium provident voluptas dolorem blanditiis, illo quibusdam voluptatum quo placeat explicabo!</p>
+                <h1>Total Budget: <span id="budget">900</span> $</h1>
+            </div>
+            <div>
+                <img class="banner-img" src="./images/Rectangle 1.png" alt="">
+            </div>
+        </section>
+
+        <!-- main content area  -->
+         <div class="category"></div>
+         <section class="content-area-container">
+            <div class="left-content">
+                <div class="place">
+                    <img class="place-img" src="./images/hafsa.jpg" alt="">
+                    <div>
+                        <h2>Shajek</h2>
+                        <h4>Cost: <span class="price">300</span> $</h4>
+                        <button class="add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="place">
+                    <img class="place-img" src="./images/hamza.jpg" alt="">
+                    <div>
+                        <h2>Dhaka</h2>
+                        <h4>Cost: <span class="price">300</span> $</h4>
+                        <button class="add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="place">
+                    <img class="place-img" src="./images/mim.jpg" alt="">
+                    <div>
+                        <h2>Khulna</h2>
+                        <h4>Cost: <span class="price">500</span> $</h4>
+                        <button class="add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="place">
+                    <img class="place-img" src="./images/sundorbon.png" alt="">
+                    <div>
+                        <h2>Shajek</h2>
+                        <h4>Cost: <span class="price">300</span> $</h4>
+                        <button class="add-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="place">
+                    <img class="place-img" src="./images/Sajek.png" alt="">
+                    <div>
+                        <h2>Shajek</h2>
+                        <h4>Cost: <span class="price">300</span> $</h4>
+                        <button class="add-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div id="cart-container" class="cart">
+                <h1>Cart</h1>
+                <hr>
+                <ul id="selected-place-container" class="selected-place-container">
+
+                </ul>
+                <hr>
+                <div class="calculation-area">
+                    <h4>Total Cost: <span id="total-cost">0</span><span>$</span></h4>
+                </div>
+            </div>
+         </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
